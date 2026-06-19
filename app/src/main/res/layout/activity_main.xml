@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Application App"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/applicant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Applicant Name"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"/>
+
+
+
+
+    <EditText
+        android:id="@+id/qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qualification"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"/>
+    <EditText
+        android:id="@+id/experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experience"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"/>
+
+
+
+    <Button
+        android:id="@+id/applynow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Apply Now" />
+
+</LinearLayout>
